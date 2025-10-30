@@ -1,24 +1,23 @@
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v8.0/.Modules/settings.schema.json",
   "country": "au",
-  "versioningStrategy": 3,  
+  "versioningStrategy": 3,
   "appFolders": [
     ".\\BaseAppTestDependentApp"
   ],
-  "trackALAlertsInGitHub": true,  
+  "trackALAlertsInGitHub": true,
   "testFolders": [],
   "bcptTestFolders": [],
   "repoVersion": "2.2.2.2",
   "ConditionalSettings": [
     {
       "branches": [
-          "*"
+        "*"
       ],
       "settings": {
-          "doNotPublishApps": true,
-          "doNotSignApps": true
+        "doNotPublishApps": true,
+        "doNotSignApps": true
       }
     }
   ]
-
 }
