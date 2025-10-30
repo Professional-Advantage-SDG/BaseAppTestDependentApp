@@ -8,5 +8,17 @@
   "trackALAlertsInGitHub": true,  
   "testFolders": [],
   "bcptTestFolders": [],
-  "repoVersion": "2.2.2.2"
+  "repoVersion": "2.2.2.2",
+  "ConditionalSettings": [
+    {
+      "branches": [
+          "*"
+      ],
+      "settings": {
+          "doNotPublishApps": true,
+          "doNotSignApps": true
+      }
+    }
+  ]
+
 }
